@@ -1,0 +1,46 @@
+import(portfolio)
+
+exportClasses(
+              portfolioSim,
+
+              ## Class unions
+
+              orderable,
+
+              ## Results
+              
+              simResultSinglePeriod,
+              simResult,
+              instantData,
+              periodData,
+              
+              ## Input
+
+              simTradesInterface,
+              simTrades,
+              simDataInterface,
+              simData,
+              simSummaryInterface,
+              simSummaryInterfaceOrNull,
+              
+              ## Extensions
+
+              stiFromSignal,
+              stiPresetTrades,
+              sdiDf,
+
+              Date
+              )
+
+exportMethods(
+              plot,
+              summary,
+              initialize,
+
+              getSimData,
+              getSimTrades,
+              
+              runSim,
+              saveOut,
+              loadIn
+              )

@@ -1,0 +1,28 @@
+Version: 0.2-5 (2009-02-06, released)
+
+	* Fixed test to accomodate change in superclasses of "factor".
+
+Version: 0.2-4 (2009-01-13, released)
+
+	* Fixed bug breaking R CMD check.  No longer redefine the 
+	"characterOrNull" class union in this package.
+
+Version: 0.2-0 (2007-04-22, released)
+
+	* Require portfolio_0.4-0.
+	
+	* Allow use of Inf as fill.volume.pct to force completion of all trades.	
+
+	* Correctly update weights of holdings each period.
+
+	* Allow passing of period ranges to summary()
+
+
+Version: 0.1-2 (2007-01-16, released)
+
+	* Set default row.names of data frames in class prototypes to
+	integer() so that tests pass under 2.4.x and 2.5.x.
+
+Version: 0.1-1 (2006-10-04, released)
+
+        * Fixed test breaking due to locale issues.
